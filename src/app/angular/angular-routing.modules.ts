@@ -5,7 +5,7 @@ import { AngularConceptsComponent } from './component/angular-concepts/angular-c
 
 
 export const routes: Routes = [
-  { path: '', component: AngularConceptsComponent }
+  { path: 'concepts', component: AngularConceptsComponent }
 ];
 
 @NgModule({

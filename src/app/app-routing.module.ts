@@ -11,12 +11,12 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        component:RxjsAllOperatorsComponent,
+        // component:RxjsAllOperatorsComponent,
         loadChildren: () => import('../app/rxjs/rxjs.module').then(m => m.RxjsModule),
       },
       {
         path: 'angular',
-        component:AngularConceptsComponent,
+        // component:AngularConceptsComponent,
         loadChildren: () => import('../app/angular/angular.module').then(m => m.AngularModule),
       },
 
